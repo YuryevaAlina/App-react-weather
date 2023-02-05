@@ -1,22 +1,19 @@
 import "./App.css";
+import City from "./City";
+import Navigation from "./Navigation";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <h1>Hellow word</h1>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="container">
+        <div className="weather-container">
+          <div>
+            <header className="App-header">
+              <Navigation />
+            </header>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
