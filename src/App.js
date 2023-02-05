@@ -1,5 +1,6 @@
 import "./App.css";
 import Navigation from "./Navigation";
+import SearchForm from "./SearchForm";
 
 function App() {
   return (
@@ -10,6 +11,9 @@ function App() {
             <header className="App-header">
               <Navigation />
             </header>
+          </div>
+          <div>
+            <SearchForm />
           </div>
         </div>
       </div>

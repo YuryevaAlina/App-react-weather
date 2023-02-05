@@ -9,7 +9,7 @@ export default function Navigations() {
         <a href="/">Kiev</a>
       </li>
       <li className="Navigation">
-        <a href="/sydney">Bremen</a>
+        <a href="/">Bremen</a>
       </li>
       <li className="Navigation">
         <a href="/">Toronto</a>
