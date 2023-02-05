@@ -1,5 +1,4 @@
 import "./App.css";
-import City from "./City";
 import Navigation from "./Navigation";
 
 function App() {

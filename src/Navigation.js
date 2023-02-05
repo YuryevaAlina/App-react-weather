@@ -1,18 +1,21 @@
 import React from "react";
-export default function () {
+export default function Navigations() {
   return (
-    <ul class="Navigation">
-      <li class="navigation-item">
-        <a href="/">Lisbon</a>
+    <ul className="Navigation">
+      <li className="Navigation">
+        <a href="/">Washington</a>
       </li>
-      <li class="navigation-item">
-        <a href="/paris">Paris</a>
+      <li className="Navigation">
+        <a href="/">Kiev</a>
       </li>
-      <li class="navigation-item">
-        <a href="/sydney">Sydney</a>
+      <li className="Navigation">
+        <a href="/sydney">Bremen</a>
       </li>
-      <li class="navigation-item">
-        <a href="/san-francisco">San Francisco</a>
+      <li className="Navigation">
+        <a href="/">Toronto</a>
+      </li>
+      <li className="Navigation">
+        <a href="/">Munchen</a>
       </li>
     </ul>
   );
