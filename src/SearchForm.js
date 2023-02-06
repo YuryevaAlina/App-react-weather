@@ -1,5 +1,6 @@
 import React from "react";
 import WeatherInfo from "./WeatheInfo";
+import Forecast from "./Forecast";
 
 export default function SearchForm() {
   return (
@@ -13,6 +14,7 @@ export default function SearchForm() {
         </form>
       </div>
       <WeatherInfo />
+      <Forecast />
     </div>
   );
 }

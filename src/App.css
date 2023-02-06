@@ -123,3 +123,23 @@
   font-weight: 400;
   color: #000000;
 }
+
+.App .Forecast {
+  display: inline-block;
+  flex-wrap: wrap;
+  display: grid;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  margin: 20px 0;
+  padding: 0;
+  flex-direction: row;
+  grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
+}
+
+.App .Forecast {
+  text-align: center;
+}
+
+.App .MainWeatherIcon {
+  margin: 10px 0;
+}
