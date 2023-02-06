@@ -4,6 +4,7 @@
   font-weight: 400;
   line-height: 1.5;
   color: #878787;
+  margin-left: 100px;
 }
 
 .App h1 {
@@ -16,8 +17,7 @@
 
 .App .container {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+
   margin-right: auto;
   margin-left: auto;
 }
@@ -41,6 +41,7 @@
 
 .App a {
   text-decoration: none;
+  color: #007bff;
 }
 
 .App button {
@@ -142,4 +143,8 @@
 
 .App .MainWeatherIcon {
   margin: 10px 0;
+}
+
+.App p {
+  color: #000000;
 }

@@ -1,6 +1,7 @@
 import "./App.css";
 import Navigation from "./Navigation";
 import SearchForm from "./SearchForm";
+import Footer from "./Footer";
 import Container from "react-bootstrap/Container";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           </div>
         </div>
       </Container>
+      <Footer />
     </div>
   );
 }
